@@ -1,0 +1,37 @@
+[project]
+name = "git-kpis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tom", email = "tomburdge3@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "dlt>=1.9.0",
+    "duckdb>=1.2.1",
+    "gitpython>=3.1.44",
+    "polars>=1.26.0",
+]
+
+[project.scripts]
+git-kpis = "git_kpis:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# Optional if your source is inside a src/ directory
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "pyright>=1.1.399",
+    "ruff>=0.11.2",
+    "sqlfluff>=3.3.1",
+]
