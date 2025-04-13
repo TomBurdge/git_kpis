@@ -9,9 +9,7 @@ def load_git_commit_info(repo_dir: List[str]) -> None:
 
     # configure the pipeline: provide the destination and dataset name to which the data should go
     pipeline = dlt.pipeline(
-        pipeline_name="git_kpis_pipeline",
-        destination=dlt.destinations.duckdb("tmp/raw_git_data.db"),
-        dataset_name="git_commit_data",
+        pipeline_name="git_kpis_pipeline", dataset_name="git_commit_data"
     )
     data = source(repo_dir)
     info = pipeline.run(
