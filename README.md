@@ -15,7 +15,7 @@ cd git_kpis
 uv run script.py ../iceberg
 ```
 
-This will load your git commit data into a local duckdb database.<br>
+This will load your git commit data into a local duckdb database.<br><br>
 It is straightforward to load your data into a different dlt [destinations](https://dlthub.com/docs/general-usage/destination)
 
 # Entity Relationship Diagram (ERD)
