@@ -56,6 +56,6 @@ erDiagram
 
 # Motivation
 Why use this dlt source?<br><br>
-As an engineer, a principal medium for contributing value is delivered throught the medium of committed code. This is usually alongside writing/another form of communication, which could also be committed to a codebase in the form of a README.<br><br>
-Lines of code and number of commits are entirely imperfect substitutes for contribution level nonetheless, employing organizations often use paid services such as [git clear](https://www.gitclear.com/) to quantify employee contributions.<br><br>
+As an engineer, a principal medium for contributing value involves committing code. This is often alongside writing/another form of communication, which could also be committed to a codebase in the form of a README.<br><br>
+Lines of code and number of commits are imperfect gauges for contribution level. Nonetheless, employing organizations often use paid services such as [git clear](https://www.gitclear.com/) to quantify employee contributions.<br><br>
 Leaving git analytics solely in the hands of one's employer involves a loss of agency and ownership. Being able to quantify one's own contribution, in a performance review or otherwise, can return agency to the worker.
