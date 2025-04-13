@@ -1,3 +1,6 @@
+logs/
+git_kpis_pipeline.duckdb
+.cache/
 # Python-generated files
 __pycache__/
 *.py[oc]
